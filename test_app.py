@@ -26,5 +26,3 @@ def test_homepage_content(client):
     """
     response = client.get('/')
     assert b"This is a simple web application using Flask." in response.data
-
-
